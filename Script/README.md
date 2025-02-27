@@ -1,3 +1,89 @@
+# Análisis de Biomasa y NDVI con Python
+
+Este repositorio contiene scripts y datos para el análisis de biomasa, NDVI y coberturas vegetales utilizando Python. Los datos incluyen imágenes satelitales (Sentinel-2) y de dron (Wingtra) en diferentes periodos de tiempo, mientras que los scripts permiten calcular índices de vegetación, recortar polígonos y realizar análisis sobre manglares y coberturas.
+
+## 📂 Estructura del Repositorio
+
+```
+/Analisis-Biomasa-NDVI
+│── 📁 base_datos/              # Datos de entrada (CSV, GeoJSON, KML, Shapefiles, etc.)
+│
+│── 📁 imagenes/                # Imágenes utilizadas en el análisis
+│   ├── 📁 anterior/            # Imágenes previas al análisis
+│   ├── 📁 posterior/           # Imágenes después del análisis
+│
+│── 📁 scripts/                 # Código Python para el análisis
+│   ├── análisis_df_manglares.py   # Análisis de datos de manglares
+│   ├── análisis_coberturas.py     # Análisis de coberturas vegetales
+│   ├── recorte_poligonos_geojson_.py # Recorte de polígonos en GeoJSON
+│
+│── 📁 docs/                    # Documentación y guías
+│   ├── README.md               # Información del repositorio
+│   ├── INSTALL.md              # Instrucciones de instalación
+│   ├── USO.md                  # Cómo ejecutar los scripts
+│
+│── .gitignore                  # Archivos a excluir del control de versiones
+│── requirements.txt            # Librerías necesarias para ejecutar los scripts
+│── LICENSE                     # Licencia del proyecto
+```
+
+## 🚀 Instalación
+
+Para ejecutar los scripts de este repositorio, sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/tuusuario/Analisis-Biomasa-NDVI.git
+   cd Analisis-Biomasa-NDVI
+   ```
+
+2. Instala las dependencias necesarias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 📜 Dependencias
+Este proyecto utiliza las siguientes librerías:
+```txt
+pandas
+gdal
+geopandas
+rasterio
+folium
+shapely
+scikit-learn
+xgboost
+numpy
+matplotlib
+seaborn
+```
+
+## 🛠 Uso de los Scripts
+
+- `análisis_df_manglares.py`: Analiza los datos de biomasa y NDVI en manglares.
+- `análisis_coberturas.py`: Permite evaluar las coberturas de vegetación.
+- `recorte_poligonos_geojson_.py`: Recorta y filtra polígonos a partir de archivos GeoJSON.
+
+Ejemplo de ejecución:
+```bash
+python scripts/análisis_coberturas.py
+```
+
+## 📌 Notas
+- Se recomienda trabajar en un entorno virtual para evitar conflictos con librerías existentes.
+- Para procesar grandes volúmenes de imágenes TIFF, asegúrate de contar con suficiente memoria.
+
+## 📜 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
+
+---
+
+📧 Para consultas o mejoras, puedes contribuir con un **Pull Request** o contactar a los desarrolladores.
+
+
+
+
+
 # Análisis de Coberturas
 
 El código realiza un análisis geoespacial para clasificar y cuantificar diferentes tipos de cobertura vegetal (principalmente manglares) en imágenes satelitales. Utiliza índices espectrales como el NDVI (Índice de Vegetación Diferencial Normalizado) y el NDWI (Índice de Agua Diferencial Normalizado) para identificar áreas con diferentes niveles de degradación, así como cuerpos de agua y áreas sin vegetación. Además, calcula métricas como el área en hectáreas, la biomasa total y el promedio de NDVI para cada tipo de cobertura.
