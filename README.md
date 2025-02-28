@@ -28,3 +28,39 @@ Entre estas herramientas se encuentra EO Browser, disponible en la plataforma Se
 ## Coberturas de Manglares: Chocó, Cauca, Nariño y Valle del Cauca.
 En la región del Pacifico colombiano, los manglares se distribuyen a lo largo de las costas de los departamentos de Chocó,Cauca,Nariño y Valle del Cauca. Estos ecosistemas desempeñan un papel fundamental en la protección del litoral y la captura de carbono. Para el estudio de estas coberturas se utilizaron archivos GeoJSON específicos para cada zona de manglar, los cuales permitieron la delimitación de las zonas de interés, en total fueron 2076 zonas distribuidas a lo largo de estas regiones.  
 
+## 📜 Dependencias
+Este proyecto utiliza las siguientes librerías:
+```txt
+pandas
+gdal
+geopandas
+rasterio
+folium
+shapely
+scikit-learn
+xgboost
+numpy
+matplotlib
+seaborn
+```
+## 🛠 Uso de los Scripts
+
+- `análisis_df_manglares.py`: Analiza los datos de biomasa y NDVI en manglares.
+- `análisis_coberturas.py`: Permite evaluar las coberturas de vegetación.
+- `recorte_poligonos_geojson_.py`: Recorta y filtra polígonos a partir de archivos GeoJSON.
+
+📊 Visualización de Resultados
+
+Los resultados generados en este proyecto pueden ser visualizados a través de dashboards interactivos en Looker:
+
+Dashboard de Análisis de NDVI y Biomasa: Enlace Pendiente....
+
+Dashboard de Cambios en Cobertura Vegetal: Enlace pendiente...
+
+Estos dashboards permiten explorar los datos de manera interactiva y realizar análisis visuales sobre la evolución de la biomasa y las coberturas vegetales.
+
+📌 Notas
+
+Se recomienda trabajar en un entorno virtual para evitar conflictos con librerías existentes.
+
+Para procesar grandes volúmenes de imágenes TIFF, asegúrate de contar con suficiente memoria.
