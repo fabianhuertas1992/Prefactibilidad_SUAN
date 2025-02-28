@@ -1,6 +1,6 @@
 🛠 Uso de los Scripts
 
-análisis_df_manglares.py: Analiza datos de manglares utilizando dataframes, calculando métricas como NDVI, biomasa y cambios en la cobertura vegetal en zonas de manglares.
+*+análisis_df_manglares.py:** Analiza datos de manglares utilizando dataframes, calculando métricas como NDVI, biomasa y cambios en la cobertura vegetal en zonas de manglares.
 
 análisis_coberturas.py: Realiza un análisis sobre coberturas vegetales, posiblemente con imágenes satelitales o de dron, identificando cambios en el terreno y generando gráficos.
 
