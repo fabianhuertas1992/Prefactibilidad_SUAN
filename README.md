@@ -7,13 +7,13 @@ Este repositorio contiene scripts y datos para el análisis de biomasa, NDVI y c
 
 ```
 /Analisis-Biomasa-NDVI
-│── 📁 base_datos/              # Datos de entrada (CSV, GeoJSON, KML, Shapefiles, etc.)
+│── 📁 Base_datos/              # Datos de entrada (CSV, GeoJSON, KML, Shapefiles, etc.)
+│   ├── 📁 Poligonos/ 
+│── 📁 Imagenes/                # Imágenes utilizadas en el análisis
+│   ├── 📁 Anterior/            # Imágenes previas al análisis
+│   ├── 📁 Posterior/           # Imágenes después del análisis
 │
-│── 📁 imagenes/                # Imágenes utilizadas en el análisis
-│   ├── 📁 anterior/            # Imágenes previas al análisis
-│   ├── 📁 posterior/           # Imágenes después del análisis
-│
-│── 📁 scripts/                 # Código Python para el análisis
+│── 📁 Scripts/                 # Código Python para el análisis
 │   ├── análisis_df_manglares.py   # Análisis de datos de manglares
 │   ├── análisis_coberturas.py     # Análisis de coberturas vegetales
 │   ├── recorte_poligonos_geojson_.py # Recorte de polígonos en GeoJSON
