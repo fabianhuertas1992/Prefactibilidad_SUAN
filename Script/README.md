@@ -1,3 +1,15 @@
+🛠 Uso de los Scripts
+
+análisis_df_manglares.py: Analiza datos de manglares utilizando dataframes, calculando métricas como NDVI, biomasa y cambios en la cobertura vegetal en zonas de manglares.
+
+análisis_coberturas.py: Realiza un análisis sobre coberturas vegetales, posiblemente con imágenes satelitales o de dron, identificando cambios en el terreno y generando gráficos.
+
+recorte_poligonos_geojson_.py: Procesa archivos GeoJSON y recorta polígonos con base en criterios específicos, permitiendo delimitar zonas de interés en el análisis.
+
+
+
+
+
 # Análisis de Coberturas
 
 El código realiza un análisis geoespacial para clasificar y cuantificar diferentes tipos de cobertura vegetal (principalmente manglares) en imágenes satelitales. Utiliza índices espectrales como el NDVI (Índice de Vegetación Diferencial Normalizado) y el NDWI (Índice de Agua Diferencial Normalizado) para identificar áreas con diferentes niveles de degradación, así como cuerpos de agua y áreas sin vegetación. Además, calcula métricas como el área en hectáreas, la biomasa total y el promedio de NDVI para cada tipo de cobertura.
