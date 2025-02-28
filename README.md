@@ -1,7 +1,7 @@
 # Prefactibilidad_SUAN
 # Análisis de Biomasa y NDVI con Python
 
-Este repositorio contiene scripts y datos para el análisis de biomasa, NDVI y coberturas vegetales utilizando Python. Los datos incluyen imágenes satelitales (Sentinel-2) y de dron (Wingtra) en diferentes periodos de tiempo, mientras que los scripts permiten calcular índices de vegetación, recortar polígonos y realizar análisis sobre manglares y coberturas.
+Este repositorio contiene scripts y datos para el análisis de biomasa, NDVI y coberturas vegetales utilizando Python. Los datos incluyen imágenes satelitales (Sentinel-2) en diferentes periodos de tiempo, mientras que los scripts permiten calcular índices de vegetación, recortar polígonos y realizar análisis sobre manglares y coberturas.
 
 ## 📂 Estructura del Repositorio
 
@@ -17,7 +17,7 @@ Este repositorio contiene scripts y datos para el análisis de biomasa, NDVI y c
 │   ├── análisis_df_manglares.py   # Análisis de datos de manglares
 │   ├── análisis_coberturas.py     # Análisis de coberturas vegetales
 │   ├── recorte_poligonos_geojson_.py # Recorte de polígonos en GeoJSON
-├── README.md               # Información del repositorio│
+├── README.md               # Información del repositorio
 │
 ```
 
