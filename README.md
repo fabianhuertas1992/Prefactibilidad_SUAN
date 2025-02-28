@@ -32,7 +32,6 @@ En la región del Pacifico colombiano, los manglares se distribuyen a lo largo d
 Este proyecto utiliza las siguientes librerías:
 ```txt
 pandas
-gdal
 geopandas
 rasterio
 folium
@@ -41,7 +40,7 @@ scikit-learn
 xgboost
 numpy
 matplotlib
-seaborn
+unidecode
 ```
 ## 🛠 Uso de los Scripts
 
