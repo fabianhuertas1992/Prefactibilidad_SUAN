@@ -48,7 +48,7 @@ unidecode
 - `análisis_coberturas.py`: Permite evaluar las coberturas de vegetación.
 - `recorte_poligonos_geojson_.py`: Recorta y filtra polígonos a partir de archivos GeoJSON.
 
-📊 Visualización de Resultados
+# 📊 Visualización de Resultados
 
 Los resultados generados en este proyecto pueden ser visualizados a través de dashboards interactivos en Looker:
 
