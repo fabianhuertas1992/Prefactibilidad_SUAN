@@ -1,4 +1,4 @@
-📂 Imágenes Posteriores
+📂 Imágenes Anterior
 
 Esta carpeta contiene imágenes obtenidas después del análisis inicial. Estas imágenes provienen del satélite Sentinel-2 y están en formato .tiff, permitiendo evaluar los cambios en la cobertura vegetal y la biomasa con el tiempo.
 
