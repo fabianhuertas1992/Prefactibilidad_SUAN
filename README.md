@@ -52,9 +52,9 @@ unidecode
 
 Los resultados generados en este proyecto pueden ser visualizados a través de dashboards interactivos en Looker:
 
-Dashboard de Análisis de NDVI y Biomasa: [Enlace](https://lookerstudio.google.com/s/vUAX68fFDeI)
+### Dashboard de Análisis de NDVI y Biomasa: [Enlace](https://lookerstudio.google.com/s/vUAX68fFDeI)
 
-Dashboard de Cambios en Cobertura Vegetal: [Enlace](https://lookerstudio.google.com/s/r5w3Z8rDXbI)
+### Dashboard de Cambios en Cobertura Vegetal: [Enlace](https://lookerstudio.google.com/s/r5w3Z8rDXbI)
 
 Estos dashboards permiten explorar los datos de manera interactiva y realizar análisis visuales sobre la evolución de la biomasa y las coberturas vegetales.
 
