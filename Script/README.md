@@ -30,8 +30,6 @@ Para ejecutar este notebook, es necesario contar con:
   ```python
   pip install rasterio numpy pandas matplotlib geopandas scikit-learn
   ```
-¡Claro! A continuación, te presento un **informe detallado** del código que has compartido. Este informe incluye una descripción de los objetivos, la metodología, las funciones clave y los resultados esperados.
-
 ---
 
 
